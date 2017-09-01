@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
 <LinearLayout
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/activity_main"
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/newbackground"
+    android:fadeScrollbars="true"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    android:orientation="vertical"
-    android:background="@drawable/newbackground"
-    android:paddingBottom="16dp"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:fadeScrollbars="true">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -62,3 +69,4 @@
     </RelativeLayout>
 
 </LinearLayout>
+    </ScrollView>
